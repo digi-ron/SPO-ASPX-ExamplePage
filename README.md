@@ -9,7 +9,7 @@ This is only made possible by the fact that Microsoft allows this functionality 
 - Basic knowledge of what you're doing, or a environment where it doesn't matter if you do break it at least
 
 ## Installation
-1. Edit as required and tun the Enable-CustomUpload.ps1 script
+1. Edit as required and run the Enable-CustomUpload.ps1 script
 1. make an ASPX file, noting the following:
     - while the extension is .aspx, the file should realistically be treated as a .html file which needs to be renamed before upload, as server-side code blocks (<@ "C# code here" @>) are blocked by SPO
     - any external files such as .js files and .css files are permitted, and will work relative to the document library the page is in (for simplicity the example aspx page included is all one file)
